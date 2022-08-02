@@ -7,6 +7,8 @@ body {
   width: 95%;
   height: 70px;
   margin: 30px;
+  background-color: rgb(144, 111, 233);
+  background-color: rgb(44, 30, 80);
   }
 header {
   width: 95%;
@@ -21,17 +23,27 @@ header {
 }
 .mat-card#first-card {
   padding: 0;
+  background-color: rgb(231, 231, 230);
   }
-div#profile-blackground {
+.mat-card#second-card {
+  background-color: rgb(231, 231, 230); 
+}  
+div#img-fluid {
   width:"100%";
-  height:"300";
 }
 div#info-img {
     width: 0px;
+}
+div#profile-background {
+  width:"100%"; 
 }
 .education-date {
   background-color: antiquewhite;
   width: 12%;
   height: 10%;
 }
+.card-body {
+  background-color: rgb(220, 202, 230);
+}
+
 
