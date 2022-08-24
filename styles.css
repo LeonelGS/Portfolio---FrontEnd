@@ -1,58 +1,59 @@
+/* You can add global styles to this file, and also import other style files */
 * {   
-   box-sizing: border-box;
+    box-sizing: border-box;
+  }
+ body {
+   font-family:'Lato', sans-serif;
+   font-size:16px;
+   width: 95%;
+   height: 70px;
+   margin: 30px;
+   background-color: rgb(144, 111, 233);
+   background-color: rgb(44, 30, 80);
+   }
+ header {
+   width: 95%;
+   height: 200px;
+   margin: 30px;
+   }
+ .mat-card {
+  border-radius: 32px;
+  margin: 10px 10px;
+  padding: 20px;
+  border-color: rgb(53, 38, 192);
  }
-body {
-  font-family:'Lato', sans-serif;
-  font-size:16px;
-  width: 95%;
-  height: 70px;
-  margin: 30px;
-  background-color: rgb(144, 111, 233);
-  background-color: rgb(44, 30, 80);
-  }
-header {
-  width: 95%;
-  height: 200px;
-  margin: 30px;
-  }
-.mat-card {
- border-radius: 32px;
- margin: 10px 10px;
- padding: 20px;
- border-color: rgb(53, 38, 192);
-}
-.mat-card#first-card {
-  padding: 0;
-  background-color: rgb(231, 231, 230);
-  }
-.mat-card#second-card {
-  background-color: rgb(231, 231, 230); 
-}  
-div#img-fluid {
-  width:"100%";
-}
-div#info-img {
-    width: 0px;
-}
-div#profile-background {
-  width:"100%"; 
-}
-.education-date {
-  background-color: antiquewhite;
-  width: 12%;
-  height: 10%;
-}
-.card-body {
-  background-color: rgb(220, 202, 230);
-}
-aside {
-  text-align: center ;
-  align-content: center ;
-}
-#carouselExampleIndicators {
-  align-content: center ;
-}
-footer {
-  text-align: center ;
-}
-
+ .mat-card#first-card {
+   padding: 0;
+   background-color: rgb(231, 231, 230);
+   }
+ .mat-card#second-card {
+   background-color: rgb(231, 231, 230); 
+ }  
+ div#img-fluid {
+   width:"100%";
+ }
+ div#info-img {
+     width: 0px;
+ }
+ div#profile-background {
+   width:"100%"; 
+ }
+ .education-date {
+   background-color: antiquewhite;
+   width: 12%;
+   height: 10%;
+ }
+ .card-body {
+   background-color: rgb(220, 202, 230);
+ }
+ aside {
+   text-align: center ;
+   align-content: center ;
+ }
+ #carouselExampleIndicators {
+   align-content: center ;
+ }
+ footer {
+   text-align: center ;
+ }
+ 
