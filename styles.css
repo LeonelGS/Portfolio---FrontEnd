@@ -45,5 +45,14 @@ div#profile-background {
 .card-body {
   background-color: rgb(220, 202, 230);
 }
-
+aside {
+  text-align: center ;
+  align-content: center ;
+}
+#carouselExampleIndicators {
+  align-content: center ;
+}
+footer {
+  text-align: center ;
+}
 
